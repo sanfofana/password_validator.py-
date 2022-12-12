@@ -1,7 +1,7 @@
 """This program will take user's password and check for Validaty"""
 
 def password_validator(password):
-	if (len(password) > 5 and len(password) < 15):
+	if (len(password) > 8 and len(password) < 17):
 		
 		lowercase = False
 		uppercase = False
